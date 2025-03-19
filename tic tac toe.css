@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  background-color: cadetblue;
+  
+
+  
+}
+
+header {
+  background-color: rgb(27, 102, 102);
+  text-align: center;
+  height: 50px;
+  color: rgb(203, 187, 67);
+  margin-top: 30px;
+  display: inline-block;
+  width:50vh ;
+  border-radius: 25px;
+  margin-left: 37%;
+}
+
+header h1{
+  margin-top: 5px;
+}
+
+#container{
+  
+  margin-top: 8%;
+  margin-left: 40%;
+  display: flex;
+}
+
+#container .btns {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 0.2rem;
+}
+
+#container .btns button{
+
+  width: 10vh;
+  height: 10vh;
+  font-size: xx-large;
+  color: crimson;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  background-color: whitesmoke;
+}
+
+#reset{
+  margin-left: 44.4%;
+  margin-top: 50px;
+  
+}
+#reset button{
+  height: 2rem;
+  width:5rem;
+  background-color: rgb(248, 242, 165);
+  border: none;
+  border-radius:10px;
+  color: rgb(17, 89, 89);
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.msg-Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 35rem;
+
+}
+
+
+.msg-Container p{
+  font-size: xx-large;
+  color: rgb(203, 187, 67);
+}
+
+.msg-Container button{
+  height:40px;
+  width: 8rem;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: black;
+  color: #fff;
+}
+
+.hide{
+  display: none;
+}
